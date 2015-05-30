@@ -76,8 +76,12 @@ java -jar target/users-api-0.0.1.jar</span></p>
 </blockquote>
 
 <p>​</p>
-</br>
+
+<p>&nbsp;</p>
+
 <p><span style="color:#0000FF;"><strong>API DOCUMENTATION</strong></span></p>
+
+<p>&nbsp;</p>
 
 <p><strong>GENERAL OVERVIEW</strong></p>
 
@@ -151,17 +155,23 @@ java -jar target/users-api-0.0.1.jar</span></p>
 	</tbody>
 </table>
 
-<strong>Content-Type</strong>
+<p><strong>Content-Type</strong></p>
+
 <p>The API consumes and produces JSON.</p>
+
 <p>All requests should send the header Content-Type: application/json</p>
 
-<strong>Response Errors</strong>
+<p><strong>Response Errors</strong></p>
 
 <p>Not Authorized user error : HTTP status code 403: FORBIDDEN</p>
+
 <p>Not Found user error : HTTP status code 404: NOT_FOUND</p>
 
-</br>
+<p>&nbsp;</p>
+
 <p><strong>SESSION OVERVIEW&nbsp;</strong></p>
+
+<p>&nbsp;</p>
 
 <table border="0" cellpadding="1" cellspacing="1">
 	<tbody>
@@ -201,7 +211,9 @@ java -jar target/users-api-0.0.1.jar</span></p>
 &nbsp; &nbsp;&quot;email&quot;: &quot;super@user.com&quot;,<br />
 &nbsp; &nbsp;&quot;password&quot;: &quot;pass&quot;<br />
 }</p>
+
 <p><strong>Response:&nbsp;</strong><span style="line-height: 1.6em;">HTTP status code 200: OK</span></p>
+
 <p><strong>Response body:</strong></p>
 
 <p>{<br />
@@ -230,8 +242,11 @@ java -jar target/users-api-0.0.1.jar</span></p>
 
 <p><strong>Response:&nbsp;</strong><span style="line-height: 1.6em;">HTTP status code 200: OK</span></p>
 
-</br>
+<p>&nbsp;</p>
+
 <p><strong>ADMIN&nbsp;OVERVIEW</strong></p>
+
+<p>&nbsp;</p>
 
 <table cellpadding="1" cellspacing="1">
 	<tbody>
@@ -291,9 +306,7 @@ java -jar target/users-api-0.0.1.jar</span></p>
 <span style="line-height: 20.7999992370605px;">&nbsp;&nbsp; &nbsp; &nbsp; &quot;email&quot;: &quot;pablo@gmail.com&quot;,</span><br style="line-height: 20.7999992370605px;" />
 <span style="line-height: 20.7999992370605px;">&nbsp;&nbsp; &nbsp; &nbsp; &quot;password&quot;: &quot;123123123&quot;</span><br style="line-height: 20.7999992370605px;" />
 <span style="line-height: 20.7999992370605px;">&nbsp; &nbsp; &nbsp; &nbsp;},</span><br style="line-height: 20.7999992370605px;" />
-<span style="line-height: 20.7999992370605px;">&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;,</span><br style="line-height: 20.7999992370605px;" />
-<span style="line-height: 20.7999992370605px;">&nbsp;&nbsp; &nbsp;&quot;homeAddress&quot;: &quot;my home address&quot; ,</span><br style="line-height: 20.7999992370605px;" />
-<span style="line-height: 20.7999992370605px;">&nbsp;&nbsp; &nbsp;&quot;billingAddress&quot;: &quot;my billing address&quot;&nbsp;</span><br style="line-height: 20.7999992370605px;" />
+<span style="line-height: 20.7999992370605px;">&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;</span><br style="line-height: 20.7999992370605px;" />
 <span style="line-height: 20.7999992370605px;">}</span></p>
 
 <p><strong>Response:&nbsp;</strong><span style="line-height: 1.6em;">HTTP status code 201: CREATED</span></p>
@@ -310,9 +323,7 @@ java -jar target/users-api-0.0.1.jar</span></p>
 &nbsp;&nbsp; &nbsp; &nbsp; &quot;password&quot;: &quot;123123123&quot;<br />
 &nbsp; &nbsp; &nbsp; &nbsp;},<br />
 &nbsp;&nbsp; &nbsp;&quot;role&quot;: &quot;ADMIN&quot;,<br />
-&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;,<br />
-&nbsp;&nbsp; &nbsp;&quot;homeAddress&quot;: &quot;my home address&quot; ,<br />
-&nbsp;&nbsp; &nbsp;&quot;billingAddress&quot;: &quot;my billing address&quot;&nbsp;<br />
+&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;<br />
 }</p>
 
 <p><strong><span style="line-height: 20.7999992370605px;">Updates a&nbsp;</span><span style="line-height: 20.7999992370605px;">user&nbsp;admin</span></strong></p>
@@ -343,9 +354,7 @@ java -jar target/users-api-0.0.1.jar</span></p>
 &nbsp;&nbsp; &nbsp; &nbsp; &quot;password&quot;: &quot;123123123&quot;<br />
 &nbsp; &nbsp; &nbsp; &nbsp;},<br />
 &nbsp;&nbsp; &nbsp;&quot;role&quot;: &quot;ADMIN&quot;,<br />
-&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;,<br />
-&nbsp;&nbsp; &nbsp;&quot;homeAddress&quot;: &quot;my home address&quot; ,<br />
-&nbsp;&nbsp; &nbsp;&quot;billingAddress&quot;: &quot;my billing address&quot;&nbsp;<br />
+&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;<br />
 }</p>
 
 <p style="line-height: 20.7999992370605px;"><strong>Response:&nbsp;</strong>HTTP status code 200: OK</p>
@@ -364,9 +373,7 @@ java -jar target/users-api-0.0.1.jar</span></p>
 &nbsp;&nbsp; &nbsp; &nbsp; &quot;password&quot;: &quot;123123123&quot;<br />
 &nbsp; &nbsp; &nbsp; &nbsp;},<br />
 &nbsp;&nbsp; &nbsp;&quot;role&quot;: &quot;ADMIN&quot;,<br />
-&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;,<br />
-&nbsp;&nbsp; &nbsp;&quot;homeAddress&quot;: &quot;my home address&quot; ,<br />
-&nbsp;&nbsp; &nbsp;&quot;billingAddress&quot;: &quot;my billing address&quot;&nbsp;<br />
+&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;<br />
 }</div>
 
 <p><strong><span style="line-height: 20.7999992370605px;">Retrieves a&nbsp;</span><span style="line-height: 20.7999992370605px;">user&nbsp;admin</span></strong></p>
@@ -400,9 +407,7 @@ java -jar target/users-api-0.0.1.jar</span></p>
 &nbsp;&nbsp; &nbsp; &nbsp; &quot;password&quot;: &quot;123123123&quot;<br />
 &nbsp; &nbsp; &nbsp; &nbsp;},<br />
 &nbsp;&nbsp; &nbsp;&quot;role&quot;: &quot;ADMIN&quot;,<br />
-&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;,<br />
-&nbsp;&nbsp; &nbsp;&quot;homeAddress&quot;: &quot;my home address&quot; ,<br />
-&nbsp;&nbsp; &nbsp;&quot;billingAddress&quot;: &quot;my billing address&quot;&nbsp;<br />
+&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;<br />
 }</p>
 
 <div><strong><span style="line-height: 20.7999992370605px;">Retrieves all&nbsp;</span><span style="line-height: 20.7999992370605px;">user&nbsp;admins</span></strong></div>
@@ -439,10 +444,8 @@ java -jar target/users-api-0.0.1.jar</span></p>
 &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &quot;password&quot;: &quot;123123123&quot;<br />
 &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },<br />
 &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;role&quot;: &quot;ADMIN&quot;,<br />
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;,<br />
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;homeAddress&quot;: &quot;my home address&quot; ,<br />
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;billingAddress&quot;: &quot;my billing address&quot;&nbsp;<br />
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}<br />
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;dateOfBirth&quot;: &quot;11-11-2000&quot;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; }<br />
 &nbsp;&nbsp; &nbsp;]<br />
 }</p>
 
@@ -473,8 +476,11 @@ java -jar target/users-api-0.0.1.jar</span></p>
 
 <div>&nbsp;</div>
 
-</br>
+<p>&nbsp;</p>
+
 <p><strong><span style="line-height: 1.6em;">SUBSCRIBER OVERVIEW</span></strong></p>
+
+<p>&nbsp;</p>
 
 <table border="0" cellpadding="1" cellspacing="1">
 	<tbody>
@@ -714,4 +720,3 @@ java -jar target/users-api-0.0.1.jar</span></p>
 }</p>
 
 <p style="line-height: 20.7999992370605px;"><strong>Response:&nbsp;</strong>HTTP status code 204: NO_CONTENT</p>
-
