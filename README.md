@@ -151,6 +151,10 @@ java -jar target/users-api-0.0.1.jar</span></p>
 	</tbody>
 </table>
 
+<strong>Content-Type</strong>
+<p>The API consumes and produces JSON.</p>
+<p>All requests should send the header Content-Type: application/json</p>
+
 <strong>Response Errors</strong>
 
 <p>Not Authorized user error : HTTP status code 403: FORBIDDEN</p>
